@@ -20,4 +20,5 @@ def function():
     print('este fue el tiempo transcurrido', tiempo_transcurrido)
 
 
-function()
+if __name__ == "__main__":
+    function()
